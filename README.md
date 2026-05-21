@@ -47,7 +47,7 @@ LoRA 超参：`rank=8, alpha=16, dropout=0.05`。
 dino_project/weights/groundingdino_swint_ogc.pth
 ```
 
-**(2) FLIR ADAS 数据集**：训练 + 验证用的红外图像和标注。从 [FLIR ADAS 官网](https://www.flir.com/oem/adas/adas-dataset-form/) 申请下载 **FLIR ADAS 1.3** 版本，解压后放到：
+**(2) FLIR ADAS 数据集**：训练 + 验证用的红外图像和标注。从 [FLIR ADAS 官网](https://www.flir.com/oem/adas/adas-dataset-form/) 申请下载 **FLIR ADAS 1.3** 版本，（或者kaggle上下载）解压后放到：
 
 ```
 dino_project/FLIR_ADAS_1_3/
