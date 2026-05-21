@@ -1,0 +1,31 @@
+{
+  "config_file": "/root/autodl-tmp/dino_project/Open-GroundingDino-main/config/cfg_flir_lora_stageb_s2_regdata_gentlelr_e4.py",
+  "options": {
+    "text_encoder_type": "/root/.cache/huggingface/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594",
+    "save_checkpoint_interval": 4
+  },
+  "datasets": "/root/autodl-tmp/dino_project/Open-GroundingDino-main/config/datasets_flir_odvg_20p.json",
+  "remove_difficult": false,
+  "fix_size": false,
+  "output_dir": "/root/autodl-tmp/dino_project/Open-GroundingDino-main/logs/flir_lora_stageb_s2_regdata_gentlelr_e4",
+  "note": "",
+  "device": "cuda",
+  "seed": 42,
+  "resume": "",
+  "pretrain_model_path": "/root/autodl-tmp/dino_project/Open-GroundingDino-main/logs/flir_lora_stageb_plus8_gentle_rerun/checkpoint_best_regular.pth",
+  "finetune_ignore": null,
+  "start_epoch": 0,
+  "eval": false,
+  "num_workers": 6,
+  "test": false,
+  "debug": false,
+  "find_unused_params": false,
+  "save_results": false,
+  "save_log": false,
+  "world_size": 1,
+  "dist_url": "env://",
+  "rank": 0,
+  "local_rank": 0,
+  "amp": true,
+  "distributed": false
+}

@@ -1,0 +1,18 @@
+{
+  "best_map": {
+    "all_best_res": 0.4244209435319182,
+    "all_best_ep": 13,
+    "regular_best_res": 0.4244209435319182,
+    "regular_best_ep": 13,
+    "ema_best_res": 0.3837455246195004,
+    "ema_best_ep": 18
+  },
+  "best_aps": {
+    "all_best_res": 0.27890840851069476,
+    "all_best_ep": 13,
+    "regular_best_res": 0.27890840851069476,
+    "regular_best_ep": 13,
+    "ema_best_res": 0.25961480777514906,
+    "ema_best_ep": 19
+  }
+}

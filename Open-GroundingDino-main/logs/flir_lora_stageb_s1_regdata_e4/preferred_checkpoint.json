@@ -1,0 +1,5 @@
+{
+  "checkpoint": "checkpoint_best_regular.pth",
+  "metric": 0.4207960300286198,
+  "selector": "best_map"
+}

@@ -1,0 +1,30 @@
+{
+  "config_file": "/root/autodl-tmp/dino_project/Open-GroundingDino-main/config/cfg_flir_lora_plateau_c_sched_smooth_ema_e20.py",
+  "options": {
+    "text_encoder_type": "/root/.cache/huggingface/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594"
+  },
+  "datasets": "/root/autodl-tmp/dino_project/Open-GroundingDino-main/config/datasets_flir_odvg_20p.json",
+  "remove_difficult": false,
+  "fix_size": false,
+  "output_dir": "/root/autodl-tmp/dino_project/Open-GroundingDino-main/logs/flir_lora_plateau_c_sched_smooth_ema_e20",
+  "note": "",
+  "device": "cuda",
+  "seed": 42,
+  "resume": "",
+  "pretrain_model_path": "/root/autodl-tmp/dino_project/weights/groundingdino_swint_ogc.pth",
+  "finetune_ignore": null,
+  "start_epoch": 0,
+  "eval": false,
+  "num_workers": 6,
+  "test": false,
+  "debug": false,
+  "find_unused_params": false,
+  "save_results": false,
+  "save_log": false,
+  "world_size": 1,
+  "dist_url": "env://",
+  "rank": 0,
+  "local_rank": 0,
+  "amp": true,
+  "distributed": false
+}

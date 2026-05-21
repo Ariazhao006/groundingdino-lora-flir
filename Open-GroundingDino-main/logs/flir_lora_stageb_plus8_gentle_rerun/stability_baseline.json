@@ -1,0 +1,20 @@
+{
+  "baseline_best_ap": null,
+  "summaries": [
+    {
+      "log_path": "/root/autodl-tmp/dino_project/Open-GroundingDino-main/logs/flir_lora_stageb_plus8_gentle_rerun/log.txt",
+      "epochs": 8,
+      "best_epoch": 3,
+      "best_ap": 0.4318184468609143,
+      "best_ap50": 0.7816010645744919,
+      "best_ap75": 0.441026586398592,
+      "best_aps": 0.2812527593736239,
+      "last_ap": 0.4227661634867388,
+      "last_ap50": 0.7669414205219339,
+      "last_ap75": 0.43272777700612153,
+      "last_aps": 0.2778927085599849,
+      "last5_avg_ap": 0.4240294054576131,
+      "rollback": 0.009052283374175518
+    }
+  ]
+}

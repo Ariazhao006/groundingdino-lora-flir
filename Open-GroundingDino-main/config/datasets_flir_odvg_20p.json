@@ -1,0 +1,18 @@
+{
+  "train": [
+    {
+      "root": "/root/autodl-tmp/dino_project/FLIR_ADAS_1_3/train",
+      "anno": "/root/autodl-tmp/dino_project/FLIR_ADAS_1_3/odvg/train_odvg_20p.jsonl",
+      "label_map": "/root/autodl-tmp/dino_project/FLIR_ADAS_1_3/odvg/label_map.json",
+      "dataset_mode": "odvg"
+    }
+  ],
+  "val": [
+    {
+      "root": "/root/autodl-tmp/dino_project/FLIR_ADAS_1_3/val",
+      "anno": "/root/autodl-tmp/dino_project/FLIR_ADAS_1_3/odvg/val_coco_remapped.json",
+      "label_map": null,
+      "dataset_mode": "coco"
+    }
+  ]
+}
