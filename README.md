@@ -8,7 +8,7 @@
 
 Grounding DINO 整体结构如下：
 
-![Grounding DINO 结构](Open-GroundingDino-main/figs/grounding_dino_framework.png)
+![Grounding DINO 结构](grounding_dino_framework.png)
 
 我们把 LoRA **只注入到图中第 2 部分 "Feature Enhancer Layer" 的所有注意力线性层**（同时也包含 encoder 的 self-attention 层）。主干（图像 backbone、文本 backbone）以及 Cross-Modality Decoder 全部冻结，**只有 LoRA 旁路参与训练**。
 
